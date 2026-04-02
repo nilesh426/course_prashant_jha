@@ -36,15 +36,15 @@
 # print(complex(True,False)) #1+0j
 # #cannot convert name to complex
 
-#Typecasting Bool
-print(bool(0)) #False
-print(bool(0+0j)) #False
-print(bool()) #False
-print(bool(3.14)) #False
-print(bool("Nilesh")) #True
-print(bool(-1)) #True
-print(bool(1+2j))#True
-#proving 0 of any type will give false 
-#providing any non zero value of any type will give true
+# #Typecasting Bool
+# print(bool(0)) #False
+# print(bool(0+0j)) #False
+# print(bool()) #False
+# print(bool(3.14)) #False
+# print(bool("Nilesh")) #True
+# print(bool(-1)) #True
+# print(bool(1+2j))#True
+# proving 0 of any type will give false 
+# providing any non zero value of any type will give true
 
 
