@@ -88,8 +88,17 @@ mylist = ["prashant","ankush","ashish","satyarth","77","yash","nilesh"]
 # for i in range(0,4):
 #     print(arr[i].pop())
 
-arr=[1,2,3,4,5,6]
-for i in range(1,6):
-    arr[i-1]=arr[i]
-for i in range(0,6):
-    print(arr[i],end=" ")
+
+
+# arr=[1,2,3,4,5,6]
+# for i in range(1,6):
+#     arr[i-1]=arr[i]
+# for i in range(0,6):
+#     print(arr[i],end=" ")
+
+# a=[1,2,3,4,5,6,7,8,9,10,11,12]
+# a[::2]=10,20,30,40,50,60
+# print(a)
+
+a=[1,2,3,4,5]
+print(a[3:0:-1])
