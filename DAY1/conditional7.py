@@ -7,3 +7,4 @@ print("10 notes=", (((Amount%100)%50)%20)//10)
 print("5 notes=", ((((Amount%100)%50)%20)%10)//5)
 print("2 notes=", (((Amount%100)%50)%20)%10%5//2)
 print("1 notes=", (((Amount%100)%50)%20)%10%5%2//1)
+
