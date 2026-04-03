@@ -78,4 +78,52 @@
 #         newstr = i + newstr
 # print(newstr) #***prashantisagoodprogrammer
 
+#BODMAS
+# A=50
+# B=30
+# C=20
+# D=10
+
+# print((A+B)*C/D) 
+# print((A-B)*(C/D))
+# print(A+(B*C)/D)
+
+# X=['A','B','C']
+# Y=['A','B','C']
+# Z=[1,2,3,4]
+# print(id(X)) 
+# print(id(Y)) 
+# print(X==Y) #True
+# print(X==Z) #False
+# print(X != Z) #True
+
+#WAP to check whether the given string is anagram or not
+# a="silent"
+# b="listen"
+# if len(a)==len(b):
+#     for i in a:
+#         if i not in b:
+#             print("Not Anagram")
+#             break
+#     else:
+#         print("Anagram")
+
+#WAP to count the number of words in a string
+# a = "Hello World Python Programming"
+# word=1
+# for i in a:
+#     if i==" ":
+#         word += 1
+# print(word ) 
+
+#wap to return an array where each element is product of other elements
+a=[1,2,3,4,5]
+b=[]
+for i in range(len(a)):
+    for j in range(len(a)):
+        if i!=j:
+            b.append(a[i]*a[j])
+print(b)
+
+
 
