@@ -117,13 +117,41 @@
 # print(word ) 
 
 #wap to return an array where each element is product of other elements
-a=[1,2,3,4,5]
-b=[]
-for i in range(len(a)):
-    for j in range(len(a)):
-        if i!=j:
-            b.append(a[i]*a[j])
-print(b)
+# a=[1,2,3,4,5]
+# b=[]
+# for i in range(len(a)):
+#     for j in range(len(a)):
+#         if i!=j:
+#             b.append(a[i]*a[j])
+#             mul = mul + a[i]*a[j]
+# print(b)
+
+
+#wap to arrange positive and negative numbers alternately
+# a=[-1,2,-3,4,5,-6]
+# p=[]
+# n=[]
+# for i in a:
+#     if i>0:
+#         p.append(i)
+#     if i<0:
+#         n.append(i)
+
+# print(n)
+# print(p)
+# for i in range(len(p)):
+#     a[i*2+1] = n[i]
+#     a[i*2] = p[i]
+# print(a)
+
+#WAP to find the majority element in an array
+a=[3,3,4,2,4,4,2,4,4]
+n=len(a)
+for i in a:
+    if a.count(i)>n/2:
+      i+=i
+print(i)
+    
 
 
 
