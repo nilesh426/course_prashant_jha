@@ -35,11 +35,12 @@
 #           print(n+1-i, end=" ")  #end is used to print in same line with space
 #       print() #for newline
 
-import time
-n=10
-for i in range(1,n+1):
-    print(" "*(n-i),end="")
-    for j in range(1,i+1):
-        time.sleep(2)
-        print("*",end=" ")
-    print()
+# import time
+# n=10
+# for i in range(1,n+1):
+#     print(" "*(n-i),end="")
+#     for j in range(1,i+1):
+#         time.sleep(2)
+#         print("*",end=" ")
+#     print()
+
