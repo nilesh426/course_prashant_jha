@@ -44,3 +44,21 @@
 # print("Vowels=",vowel)
 # print("Consonants=",cons)
 
+#WAP to remove an element from the list
+# a=[1,2,2,3,4,2]
+# print(a)
+# b=[]
+# ele=int(input("Enter element to remove:"))
+# for i in a:
+#     if i!=ele:
+#         b.append(i)
+# print(b)
+
+#WAP to find the product of all the elements in the list
+a=[2,3,4,5]
+print(a)
+product=1
+for i in a:
+    product *= i
+print(product)
+
