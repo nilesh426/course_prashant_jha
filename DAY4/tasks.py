@@ -55,10 +55,10 @@
 # print(b)
 
 #WAP to find the product of all the elements in the list
-a=[2,3,4,5]
-print(a)
-product=1
-for i in a:
-    product *= i
-print(product)
+# a=[2,3,4,5]
+# print(a)
+# product=1
+# for i in a:
+#     product *= i
+# print(product)
 
