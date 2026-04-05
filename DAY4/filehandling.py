@@ -39,8 +39,39 @@
 #     content = print(f.read())
 #     print(content)
 
-f1=open("OIP.jpg","rb")
-f2=open("OIP1.jpg","wb")
-data=f1.read()
-f2.write(data)
-print("operation done")
+# f1=open("OIP.jpg","rb")
+# f2=open("OIP1.jpg","wb")
+# data=f1.read()
+# f2.write(data)
+# print("operation done")
+
+# import csv
+# f=open("student.csv","a",newline="")
+# a=csv.writer(f)
+# # a.writerow(["StudentID","RollNo","Name","Marks"])
+# studentid=int(input("Enter the student id: "))
+# rollno=int(input("Enter the roll no: "))
+# name=input("Enter the name: ")
+# marks=int(input("Enter the marks: "))
+# a.writerow([studentid,rollno,name,marks])
+# print("Student record has been saved")
+
+import csv
+f=open("student1.csv","a",newline="")
+a=csv.writer(f)
+# a.writerow(["RollNo","Name","Mobile_no","Email_id","p1","p2","p3","total","percentage","Result"])
+rollno=int(input("Enter the roll no: "))
+name=input("Enter the name: ")
+mobile_no=int(input("Enter the mobile_no: "))
+email_id=input("Enter the email_id:")
+p1=int(input("Enter the marks of p1:"))
+p2=int(input("Enter the marks of p2:"))
+p3=int(input("Enter the marks of p3:"))
+total=p1+p2+p3
+percentage=total/3.0
+if p1>=40 and p2>=40 and p3>=40:
+    result="Pass"
+else:
+    result="Fail"
+a.writerow([rollno,name,mobile_no,email_id,p1,p2,p3,total,percentage,result])
+print("Student record has been saved")
