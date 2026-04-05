@@ -31,15 +31,16 @@
 #     password=input("Enter your password: ")
     
 #To find vowels and consonants
-name = 'programming'
-vowels=['a','e','i','o','u']
-vowel=0
-cons=0
-for i in name:
-    if i in vowels:
-        vowel+=1
-    else:
-        cons+=1
+# name = 'programming'
+# vowels=['a','e','i','o','u']
+# vowel=0
+# cons=0
+# for i in name:
+#     if i in vowels:
+#         vowel+=1
+#     else:
+#         cons+=1
         
-print("Vowels=",vowel)
-print("Consonants=",cons)
+# print("Vowels=",vowel)
+# print("Consonants=",cons)
+
