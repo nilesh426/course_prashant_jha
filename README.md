@@ -17,6 +17,7 @@ python course_prashant_jha/DAY2/reverse.py
 1. `course_prashant_jha/DAY2` - strings, loops, list/tuple operations, and practice tasks.
 1. `course_prashant_jha/DAY3` - dictionaries, functions, arguments, nested loops, and string strip methods.
 1. `course_prashant_jha/DAY4` - exception handling, predefined string methods, and practice tasks.
+1. `course_prashant_jha/DAY5` - object-oriented programming concepts and practice exercises.
 
 **DAY1 Detailed Index**
 1. `course_prashant_jha/DAY1/1.py`  
@@ -105,6 +106,12 @@ python course_prashant_jha/DAY2/reverse.py
    Predefined string method examples (`isalpha`, `isdigit`, `istitle`, etc.) and small dict/list exercises (commented).
 1. `course_prashant_jha/DAY4/tasks.py`  
    Practice snippets (mostly commented); active code counts vowels and consonants in a string.
+
+**DAY5 Detailed Index**
+1. `course_prashant_jha/DAY5/objectorientedprogramming.py`  
+   Demonstrates object-oriented programming concepts including classes, constructors, instance variables, methods, and the four pillars of OOP (abstraction, encapsulation, inheritance, polymorphism).
+1. `course_prashant_jha/DAY5/prac.py`  
+   Practice snippets for list operations including reversing lists, checking palindromic lists, and finding common elements between lists.
 
 **Notes**
 1. Many files are intentionally commented to serve as reference snippets.
