@@ -108,7 +108,6 @@
 # obj.car_loan()    #calling method of child class using child
 
 
-
 #constructor overriding
 # class Father:
 #     def __init__(self):
@@ -120,3 +119,5 @@
 #         super().__init__()
 
 # obj=Child()
+
+
