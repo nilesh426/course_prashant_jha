@@ -1,0 +1,82 @@
+  #===========Time Complexity===========#
+
+Big O Notation
+O(1)        -   Constant Time       -   Accessing a specific eleement in array
+O(n)        -   Linear Time         -   Loop through array elements
+O(log n)    -   Logarithmic Time    -   Find an element in sorted array
+O(n^2)      -   Quadratic Time      -   Looking at every index in the array twice
+O(2^n)      -   Exponential Time    -   Double recursion in Fibonacci
+O(n log n)  -   Log-Linear Time     -   Merge Sort
+
+O(1) - Constant Time
+array = [1,2,3,4,5]
+array[0] //It takes constant time to access first element
+
+O(n) - Linear Time
+array = [1,2,3,4,5]
+for element in array:
+    print(element) //Linear time since it is visiting every element of the array
+
+O(LogN) - Logarithmic Time
+array = [1,2,3,4,5]
+for index in range(0,len(array),3):
+        print(array[index]) //logarithmic time since it is visiting only some elements
+
+O(N^2) - Quadratic time
+array = [1,2,3,4,5]
+for x in array:
+   for y in array:
+      print(x,y)  //x and y visits same index twice 
+
+O(2^N) - Exponential time
+def fibonacci(n):
+    if n<=1:
+      return n
+    return fibonacci(n-1) + fibonacci(n-2)
+
+#stack time complexity:-
+Stack Operations Time and Space Complexity
+_________________________________________________________________________
+| Operation           | Time Complexity              | Space Complexity |
+|---------------------|------------------------------|------------------|
+| Create Stack        | O(1)                         | O(1)             |
+| Push                | O(1) average / O(N^2) worst  | O(1)             |
+| Pop                 | O(1)                         | O(1)             |
+| Peek                | O(1)                         | O(1)             |
+| isEmpty             | O(1)                         | O(1)             |
+| Delete Entire Stack | O(1)                         | O(1)             |
+=========================================================================
+
+#There are 2 ways to implement stack: 1) using array/list 2) using linked list
+#If-else complexity O(1) because it only checks the condition one time
+
+#Stack using list:
+   .easy to implement
+   .speed problem when it grows
+
+#Stack using linked list:
+   .Faster performnce
+   .Implementation is not easy
+
+#Queue time complexity:-
+Queue Operations Time and Space Complexity
+____________________________________________________________
+| Operation           | Time Complexity | Space Complexity |
+|---------------------|-----------------|------------------|
+| Create Queue        | O(1)            | O(1)             |
+| Dequeue             | O(N)            | O(1)             |
+| Enqueue             | O(1)            | O(1)             |
+| Peek                | O(1)            | O(1)             |
+| isEmpty             | O(1)            | O(1)             |
+| Delete Entire Queue | O(1)            | O(1)             |
+============================================================
+
+#There are 2 ways to implement queue: 1) using array/list 2) using linked list
+
+#Queue using list:
+   .easy to implement
+   .speed problem when it grows
+
+#Queue using linked list:
+   .Faster performnce
+   .Implementation is not easy
