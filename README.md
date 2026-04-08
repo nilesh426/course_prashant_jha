@@ -18,6 +18,7 @@ python course_prashant_jha/DAY2/reverse.py
 1. `course_prashant_jha/DAY3` - dictionaries, functions, arguments, nested loops, and string strip methods.
 1. `course_prashant_jha/DAY4` - exception handling, predefined string methods, and practice tasks.
 1. `course_prashant_jha/DAY5` - object-oriented programming concepts and practice exercises.
+1. `course_prashant_jha/DAY6` - abstraction, encapsulation, and practice exercises.
 
 **DAY1 Detailed Index**
 1. `course_prashant_jha/DAY1/1.py`  
@@ -112,6 +113,14 @@ python course_prashant_jha/DAY2/reverse.py
    Demonstrates object-oriented programming concepts including classes, constructors, instance variables, methods, and the four pillars of OOP (abstraction, encapsulation, inheritance, polymorphism).
 1. `course_prashant_jha/DAY5/prac.py`  
    Practice snippets for list operations including reversing lists, checking palindromic lists, and finding common elements between lists.
+
+**DAY6 Detailed Index**
+1. `course_prashant_jha/DAY6/Abstraction.py`  
+   Demonstrates abstraction using abstract base classes (ABC) with examples of training and placement classes, and booking ticket classes (commented).
+1. `course_prashant_jha/DAY6/Encapsulation.py`  
+   Demonstrates encapsulation with public and private data members and methods using RBI and SBI class examples (commented).
+1. `course_prashant_jha/DAY6/prac.py`  
+   Active code that takes a list of numbers from user input, separates even and odd numbers, and prints the sorted list.
 
 **Notes**
 1. Many files are intentionally commented to serve as reference snippets.

@@ -14,7 +14,8 @@
 # print(a)
 # for i in a:
 #     print(i[::-1],end=" ")
-    
+
+#WAP to arraange the elements such that even numbers are in front and odd numbers are in back
 n=int(input("Enter the size of list:"))
 a=[]
 b=[]
