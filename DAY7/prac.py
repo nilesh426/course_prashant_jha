@@ -12,3 +12,33 @@
 #     if i!="" and j!="" :
 #         nonempty+=1
 # print(nonempty)
+
+#wap to count the number of special characters in a string
+# a="gasgg54@#vscsd!s@*"
+# count=0
+# for i in a:
+#     if not i.isalnum():
+#         count+=1
+# print(count)
+
+#wap to count the number of perfect square
+# import math
+# n=int(input("Enter a size of list:"))
+# list=[]
+# count=0
+# for i in range(n):
+#     b=int(input("Enter a number:"))
+#     list.append(b)
+# print(list)
+# for i in list:
+#     if math.sqrt(i)%1==0:
+#         count+=1
+# print(count)
+
+
+
+
+
+
+
+
