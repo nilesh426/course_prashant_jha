@@ -1,0 +1,34 @@
+Regular expressions:
+it is used to develop the digital circuit 
+used to develop the compiler and interpreter
+used to develop the communication protocol like TCP/IP etc.
+used to develop validation logic
+used to develop the pattern matching and searching application like ctrl + f 
+the engine is written in C-Language
+this engine execute and write the re module 
+
+Compile() Function
+this function available inside re module and this function used to compile the pattern into regular expression object and which have various methods , 
+which execute various operation like
+
+Finditer() function: 
+this function is used to find a character searcing from left to right in a string
+
+Match() function:
+It always match the beginning of the string
+
+fullmatch() function:
+It matches the entire string 
+
+search() function:
+If the match is found anywhere in the string it returns the object else it will return the nOne
+
+findall() function:
+this function return a list which containing all matches
+
+sub() function:substitute
+this function perform substitution or replacement
+re.sub(expression,replacement,string) heer every match pattern will be replaced by provided replacement
+
+subn() function:
+same as sub() but it returns also the count of replacement of the string
