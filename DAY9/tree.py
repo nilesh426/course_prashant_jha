@@ -1,3 +1,12 @@
+#Full binary tree: Each node has either 0 or 2 children . No node has a single child.
+
+#Complete binary tree: .All levels except possibly the last are completely filled and
+#                      .Nodes in the last level are filled from left to right
+
+#Perfect binary tree: .All internal nodes have exactly 2 nodes.
+#                     .All leaf nodes are at the same level.
+
+
 class Tree:
     def __init__(self,value):
         self.value = value
