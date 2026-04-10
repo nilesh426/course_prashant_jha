@@ -1,10 +1,12 @@
+import QueueLinkedList as queue # type: ignore
+
 class Tree:
     def __init__(self,value):
         self.value = value
         self.children = []
     
-    def addChild(self,child):
-        self.children.append(child)
+    def addchild(self,child):
+        self.children.append(child)     
 
     def __str__(self,level=0):     #It is used to print the tree structurefcc
         ret = "   " * level + str(self.value) + "\n"
@@ -12,6 +14,7 @@ class Tree:
             ret+=child.__str__(level+1)
         return ret
 
+#object creation
 rootnode=Tree("N1")
 N2=Tree("N2")
 N3=Tree("N3")
@@ -22,11 +25,9 @@ N7=Tree("N7")
 N9=Tree("N9")
 N10=Tree("N10")
 
-
+#add child nodes in tree
 rootnode.addchild(N2)
 rootnode.addchild(N3)
-
-
 N2.addchild(N4)
 N2.addchild(N5)
 N3.addchild(N6)
