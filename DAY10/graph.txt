@@ -1,0 +1,22 @@
+#Graph consists of a finite set if vertices(or nodes) and a set of edges which connect a pair of nodes.
+                                                 #Graph
+#                                           /              \
+#                                       Directed            Undirected
+#                                       /      \            /       \
+#                                   Weighted Unweigthed  weighted  Unweighted
+#                                    /   \               /      \
+#                             positive    negative   positive    negative
+
+#Adjacency List:It is a collection of unordered list used to represent the graph.
+
+#When to use what?
+#Adjacency list: When we have a small number of vertices and edges.
+#A->B->C->D
+
+#Adjacency matrix: When we have a large number of vertices and edges
+#   A  B  C  D
+#A  0  1  0  1
+#B  1  0  1  0
+#C  0  1  0  1
+#D  1  0  1  0
+
