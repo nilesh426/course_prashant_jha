@@ -25,5 +25,5 @@
 # else:
 #     print("Not anagram")
 
-#
-
+# a=[1,6,3,5,2]
+# print(a[len(a)-1])
