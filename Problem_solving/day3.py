@@ -10,6 +10,13 @@
 #         if un1[i]>un1[j]:
 #             un1[i],un1[j] = un1[j],un1[i]
 
-# print(list(map(str,un1)))           
+# print(list(map(str,un1)))         
+
+n = [40 , 10 , 90 , 30]
+for i in range(len(n)):
+    if n[i] > n[i+1]:
+        n[i], n[i+1] = n[i+1], n[i]
+
+print(n)
         
 
