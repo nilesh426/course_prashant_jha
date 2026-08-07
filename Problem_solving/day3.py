@@ -12,11 +12,11 @@
 
 # print(list(map(str,un1)))         
 
-n = [40 , 10 , 90 , 30]
-for i in range(len(n)):
-    if n[i] > n[i+1]:
-        n[i], n[i+1] = n[i+1], n[i]
+# n = [40 , 10 , 90 , 30]
+# for i in range(len(n)):
+#     if n[i] > n[i+1]:
+#         n[i], n[i+1] = n[i+1], n[i]
 
-print(n)
+# print(n)
         
 
